@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    int i, tmpNum, num, last_digit, sum =0;
+    long fact;
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    tmpNum = num;
+    while(num > 0)
+    {
+        last_digit = num % 10;
+        fact = 1;
+        for(i=1; i<=last_digit; i++)
+        {
+            fact = fact * i;
+        }
+        sum = sum + fact;
+        num = num / 10;
+    }
+    if(sum == tmpNum)
+    {
+        printf("%d is strong number", tmpNum);
+    }
+    else
+    {
+        printf("%d is not strong number", tmpNum);
+    }
+    return 0;
+}
