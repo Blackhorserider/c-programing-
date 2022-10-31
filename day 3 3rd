@@ -1,0 +1,38 @@
+Create Day 3 EXP 3
+SAMPLE INPUT : 
+Input a string : SAVEETHA
+SAMPLE OUTPUT : 
+ The length of the given string SAVEETHA
+ is : 8
+
+TEST CASES : 
+1. INPUT : 
+ Input a string : C programming
+ OUTPUT : 
+The length of the given string C programming
+ is : 14
+2. INPUT : 
+ Input a string : C$E-DEPT
+ OUTPUT : 
+The length of the given string C$E-DEPT
+ is : 8
+3. INPUT : 
+ Input a string : SIMAM 2022
+ OUTPUT : 
+The length of the given string SIMAM 2022
+ is : 10
+4. INPUT : 
+ Input a string : 567lens
+ OUTPUT : 
+The length of the given string 567lens
+ is : 7
+5. INPUT : 
+Input a string : "
+OUTPUT : 
+The length of the given string "
+ is : 1
+6. INPUT : 
+ Input a string : "Fun with C"
+OUTPUT : 
+ The length of the given string "Fun with C"
+ is : 12
